@@ -1,0 +1,70 @@
+body{
+    background-color: bisque;
+}
+.animation1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 250px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.animation2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 250px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.animation3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 250px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.animation4 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 250px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.animation5 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 250px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:white; left:0;}
+    20%  {background-color:white; left:50px;transform: rotate(360deg);}
+    40%  {background-color:white; left:100px;transform: rotate(720deg);}
+    60%  {background-color:white; left:150px;transform: rotate(360deg);}
+    80% {background-color:white; left:200px;transform: rotate(720deg);}
+    100% {background-color:white; left:250px;transform: rotate(360deg);}
+
+}
+
