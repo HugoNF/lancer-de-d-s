@@ -1,70 +1,90 @@
-body{
-    background-color: bisque;
+
+
+form{
+    margin: auto;
+    padding: auto;
+    width: 400px;
+    z-index: 999;
 }
 .animation1 {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 250px;
-    background-color: white;
+    left: 0;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 1;
+}
+
+.animation1 input{
+    background-color: #8db9ff;
 }
 
 .animation2 {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 250px;
-    background-color: white;
+    left: 0;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 1;
+}
+
+.animation2 input{
+    background-color: #8db9ff;
 }
 
 .animation3 {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 250px;
-    background-color: white;
+    left: 0;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 1;
+}
+
+.animation3 input{
+    background-color: #8db9ff;
 }
 
 .animation4 {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 250px;
-    background-color: white;
+    left: 0;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 1;
+}
+
+.animation4 input{
+    background-color: #8db9ff;
 }
 
 .animation5 {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 250px;
-    background-color: white;
+    left: 0;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 1;
 }
 
+.animation5 input{
+    background-color: #8db9ff;
+}
+
 
 /* Standard syntax */
 @keyframes example {
-    0%   {background-color:white; left:0;}
-    20%  {background-color:white; left:50px;transform: rotate(360deg);}
-    40%  {background-color:white; left:100px;transform: rotate(720deg);}
-    60%  {background-color:white; left:150px;transform: rotate(360deg);}
-    80% {background-color:white; left:200px;transform: rotate(720deg);}
-    100% {background-color:white; left:250px;transform: rotate(360deg);}
+    0%   {background-color: #b7d4ff; left:-250px;}
+    20%  {background-color: #b7d4ff; left:-200px;transform: rotate(360deg);}
+    40%  {background-color: #b7d4ff; left:-150px;transform: rotate(720deg);}
+    60%  {background-color: #b7d4ff; left:-100px;transform: rotate(360deg);}
+    80% {background-color: #b7d4ff; left:-50px;transform: rotate(720deg);}
+    100% {background-color: #b7d4ff; left:-0;transform: rotate(360deg);}
 
 }
 

@@ -1,3 +1,4 @@
+$('.form').hide();
 $('.animation1').hide();
 $('.animation2').hide();
 $('.animation3').hide();
@@ -60,5 +61,10 @@ function rolldice5() {
     demorand6();
     $('.animation5').show();
     $('.animation5').delay(3000).fadeOut(400)
+}
+
+function lancerdedes() {
+    $('.form').fadeIn(400);
+
 }
 

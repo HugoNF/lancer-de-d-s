@@ -34,8 +34,10 @@
         </ul>
     </div>
 </nav>-->
+<input type=button name=Bouton class="lancerdede" value="Lancer de dés" onclick="lancerdedes()" style="width: 150px;padding: 5px;" />
 <div class="form">
     <form name="form1" action="">
+        <i class="fas fa-times-circle"></i><br>
         <input type="number" class="choicede" style="width: 35px;">
         <input type=button name=Bouton class="choicedee" value="Lancer de dés" onclick="rolldice1()" style="width: 150px;padding: 5px;" />
         <br>
@@ -48,14 +50,14 @@
         <input type=button name=Bouton class="6de" value="Lancer de dés 6" onclick="rolldice5()" style="width: 150px;padding: 5px;" />
 
 
-</div>
-<div class="animation1 col-sm4"><input name="dechoice" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
-<div class="animation2 col-sm4"><input name="de100" type="text"  style="width: 100%;height: 100%;text-align: center;" /></div>
-<div class="animation3 col-sm4"><input name="de20" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
-<div class="animation4 col-sm4"><input name="de12" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
-<div class="animation5 col-sm4"><input name="de6" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
-</form>
 
+        <div class="animation1 col-sm4"><input name="dechoice" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
+        <div class="animation2 col-sm4"><input name="de100" type="text"  style="width: 100%;height: 100%;text-align: center;" /></div>
+        <div class="animation3 col-sm4"><input name="de20" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
+        <div class="animation4 col-sm4"><input name="de12" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
+        <div class="animation5 col-sm4"><input name="de6" type="text" style="width: 100%;height: 100%;text-align: center;" /></div>
+</form>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
